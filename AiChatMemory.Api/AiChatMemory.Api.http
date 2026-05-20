@@ -1,0 +1,6 @@
+@AiChatMemory.Api_HostAddress = http://localhost:5224
+
+POST {{AiChatMemory.Api_HostAddress}}/api
+Accept: application/json
+
+###
