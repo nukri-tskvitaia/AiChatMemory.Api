@@ -1,0 +1,10 @@
+﻿namespace AiChatMemory.Api.Models;
+
+public sealed class ChatMessage
+{
+    public string Role { get; set; } = string.Empty;
+
+    public string Content { get; set; } = string.Empty;
+
+    public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
+}
